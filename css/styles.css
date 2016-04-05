@@ -1,6 +1,41 @@
-body {
+nav ul{
+	list-style: none; /*get rid bullet points*/
+	padding: 0;
+}
 
-	background-color:	#ff0000;
+nav li a{
+	text-decoration: none; /* get rid underline*/
+	text-transform: uppercase;
+	background-color: #e5005f;
+	color: white;
+	padding: 5px 10px;
+	margin: 2px 0px;
+	display: inline-block; /* make to be block element*/
+	font-size: x-large;
 
+}
 
+nav li a:hover,
+#active {
+	background-color: #333333;
+}
+
+nav{
+	padding: 10px 0 0 10px;
+	width: 240px;
+	
+}
+
+nav > a{
+	display: block;
+	text-decoration: none;
+	color: #333333;
+	text-transform: uppercase;
+	margin-bottom: 10px; /* target bottom of box*/
+	font-weight: bold;
+
+}
+
+nav > a:hover{
+	color: #e5005f;
 }
