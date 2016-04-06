@@ -67,6 +67,95 @@ article img{
 }
 
 
+.related div{
+	width: 240px;
+	text-align: center;
+}
+
+.related:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.related div:nth-of-type(1){
+	float: left;
+	margin-left: 60px;
+}
+
+.related div:nth-of-type(2){
+	float: right;
+	margin-right: 60px;
+}
+
+.related img{
+	border-radius: 50%;
+
+}
+
+.related div a{
+	background-color: #e5005f;
+	display: block;
+	padding: 10px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-top: -20px;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#scroll-right,
+#scroll-left{
+	font-size: 24px;
+	border:	none;
+	background-color: transparent;
+	cursor: pointer;
+	color:	#e5005f;
+	position: absolute;
+	top: 50%;
+}
+
+#scroll-left{
+	
+	left: 0;
+	
+}
+
+#scroll-right{
+	right: 0;
+}
+
+.related{
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
