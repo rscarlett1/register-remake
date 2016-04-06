@@ -119,9 +119,7 @@ article img{
 }
 
 #scroll-left{
-	
-	left: 0;
-	
+	left: 0;	
 }
 
 #scroll-right{
@@ -130,6 +128,20 @@ article img{
 
 .related{
 	position: relative;
+}
+
+.related h1{
+	background-color: white;
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+
+.related hr{
+	position: relative;
+	top: -20px;
 }
 
 
